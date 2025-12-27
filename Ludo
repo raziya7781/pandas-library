@@ -1,0 +1,12 @@
+# Chef Plays Ludo problem - Python solution
+def main():
+    T = int(input().strip())   # number of test cases
+    for _ in range(T):
+        X = int(input().strip())
+        if X == 6:
+            print("YES")
+        else:
+            print("NO")
+
+if __name__ == "__main__":
+    main()
