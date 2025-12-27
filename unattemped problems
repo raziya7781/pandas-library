@@ -1,0 +1,7 @@
+# How many unattempted problems - Python solution
+def main():
+    X, Y = map(int, input().split())
+    print(X - Y)
+
+if __name__ == "__main__":
+    main()
